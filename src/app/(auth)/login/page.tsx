@@ -1,6 +1,7 @@
-import React from "react";
+import React from 'react';
 
-function Login() {
+async function Login() {
+  await new Promise((resolve) => setTimeout(resolve, 4000));
   return <h1>Login</h1>;
 }
 
