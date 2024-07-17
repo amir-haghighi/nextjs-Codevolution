@@ -13,6 +13,7 @@ const navLinks = [
   { name: 'products', href: '/products' },
   { name: 'Login', href: '/login' },
   { name: 'Dashboard', href: '/dashboard' },
+  { name: 'Gallery', href: '/gallery' },
 ];
 
 export default function Navs() {

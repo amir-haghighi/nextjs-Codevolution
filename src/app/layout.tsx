@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <header className='bg-slate-500 p-4'>
-          <h1>header</h1>
+          <h1>Amir Haghighi</h1>
           <Navs />
         </header>
         {children}
